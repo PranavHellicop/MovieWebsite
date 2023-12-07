@@ -12,10 +12,8 @@ import {
   Route,
 
 } from "react-router-dom"
-import { Home } from './components/home.jsx'
 import { SingleMovie } from "./components/SingleMovie.jsx"
 import { Error } from "./components/Error.jsx"
-import { Movies } from './components/Movies.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
